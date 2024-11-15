@@ -8,7 +8,7 @@ WORKDIR /app
 COPY build/libs/demo-0.0.1-SNAPSHOT.jar /app/demo.jar
 
 # Comando para ejecutar el .jar
-CMD ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "app.jar"]
 
 # Exponer el puerto donde la aplicación se ejecutará
 EXPOSE 8080
