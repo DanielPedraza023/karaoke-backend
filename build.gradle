@@ -34,7 +34,4 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-tasks.named('jar') {
-	archiveFileName.set("backend.jar") // Reemplaza con el nombre que prefieras
-}
 
